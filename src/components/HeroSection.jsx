@@ -1,8 +1,6 @@
 import React from 'react';
 import './HeroSection.css';
 
-const backgroundImage = 'https://via.placeholder.com/1600x900?text=Background+Image';
-
 const navLinks = [
     { name: 'Home', href: '#' },
     { name: 'Music', href: '#' },
@@ -12,10 +10,7 @@ const navLinks = [
 ];
 
 const HeroSection = () => (
-    <section
-        className="hero-section"
-        style={{ backgroundImage: `url(${backgroundImage})` }}
-    >
+    <section className="hero-section">
         <div className="hero-content">
             <h1 className="hero-title">Last Ghosts</h1>
             <nav className="hero-nav">
