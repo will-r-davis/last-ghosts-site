@@ -29,17 +29,20 @@ const HeroSection = () => (
                 <ul className="hero-nav-list">
                     {navLinks.map((link) => (
                         <li key={link.name}>
+                            <AnimatedOutlineButton>
                             <a
                                 href={link.href}
                                 className="hero-nav-link"
                             >
                                 {link.name}
                             </a>
+                            </AnimatedOutlineButton>
                         </li>
                     ))}
                 </ul>
             </nav>
         </div>
+        <AnimatedOutlineButton>Help</AnimatedOutlineButton>
         <div className="hero-socials">
             <ul className="hero-socials-list">
                 {socialLinks.map((link) => (
