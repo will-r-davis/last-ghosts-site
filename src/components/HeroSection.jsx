@@ -42,7 +42,6 @@ const HeroSection = () => (
                 </ul>
             </nav>
         </div>
-        <AnimatedOutlineButton>Help</AnimatedOutlineButton>
         <div className="hero-socials">
             <ul className="hero-socials-list">
                 {socialLinks.map((link) => (
@@ -64,5 +63,3 @@ const HeroSection = () => (
 );
 
 export default HeroSection;
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></link>

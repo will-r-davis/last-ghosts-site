@@ -10,6 +10,11 @@
     outline: none;
 }
 
+.animated-outline-button:hover {
+   backdrop-filter: blur(5px);
+   transition: 0.3s ease;
+}
+
 .animated-outline-button .content {
     position: relative;
     z-index: 1;
@@ -19,7 +24,7 @@
 .animated-outline-button .border {
     position: absolute;
     background: rgb(255, 231, 231);
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
     transition-delay: 0.3s; 
 }
 

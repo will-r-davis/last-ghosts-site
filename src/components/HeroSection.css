@@ -40,20 +40,21 @@
     justify-content: center;
     gap: 4.3rem;
     list-style: none;
-    padding-right: 20px;
     margin: 0;
 }
 
 .hero-nav-link {
     color:  #222;
+    shadow: 0 0 0px #0000005f;
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: bold;
-    transition: color 0.2s;
+    transition: color shadow 0.2s;
 }
 
 .hero-nav-link:hover {
     color: #0000005f;
+    shadow: 0 0 4px #0000005f;
 }
 
 .hero-socials {
