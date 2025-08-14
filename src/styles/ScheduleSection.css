@@ -1,0 +1,65 @@
+.schedule-section {
+    background: #f7f7fa;
+    color: #222;
+    min-height: 100vh;
+    width: 100%; /* Changed from 100vw to 100% */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4rem 2rem 2rem 2rem;
+    padding-left: 20vw; /* Use padding instead of margin for left space */
+    box-sizing: border-box;
+}
+
+.schedule-heading {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.schedule-intro {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.gig-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 700px;
+}
+
+.gig-item-simple {
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.gig-top {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.gig-bottom {
+    font-size: 1rem;
+    color: #444;
+}
+
+.gig-link {
+    color: #1a0dab;
+    text-decoration: underline;
+    margin-right: 0.5rem;
+}
+
+.gig-address {
+    color: #666;
+}
+
+.gig-divider {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 0.5rem 0;
+}

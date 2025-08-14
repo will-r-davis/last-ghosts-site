@@ -45,7 +45,7 @@
 
 .hero-nav-link {
     color:  #222;
-    shadow: 0 0 0px #0000005f;
+    box-shadow: 0 0 0px #0000005f;
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: bold;
@@ -54,7 +54,7 @@
 
 .hero-nav-link:hover {
     color: #0000005f;
-    shadow: 0 0 4px #0000005f;
+    box-shadow: 0 0 4px #0000005f;
 }
 
 .hero-socials {

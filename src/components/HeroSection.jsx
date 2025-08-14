@@ -1,27 +1,27 @@
 import React from 'react';
-import './HeroSection.css';
+import '../styles/HeroSection.css';
 import AnimatedOutlineButton from './AnimatedOutlineButton';
 
 
 const navLinks = [
-    { name: 'About', href: '#' },
-    { name: 'Music', href: '#' },
-    { name: 'Schedule', href: '#' },
-    { name: 'EPK', href: '#' },
-    { name: 'Contact', href: '#' },
+  { name: 'About', key: 'about' },
+  { name: 'Music', key: 'music' },
+  { name: 'Schedule', key: 'schedule' },
+  { name: 'EPK', key: 'epk' },
+  { name: 'Contact', key: 'contact' },
 ];
 
 const socialLinks = [
-    { name: 'Apple Music', href: '#', icon: 'fab fa-apple' },
-    { name: 'Spotify', href: '#', icon: 'fab fa-spotify' },
-    { name: 'Bandcamp', href: '#', icon: 'fab fa-bandcamp' },
-    { name: 'TikTok', href: '#', icon: 'fab fa-tiktok' },
-    { name: 'YouTube', href: '#', icon: 'fab fa-youtube' },
-    { name: 'Instagram', href: '#', icon: 'fab fa-instagram' },
-    { name: 'Facebook', href: '#', icon: 'fab fa-facebook' },
+    { name: 'Apple Music', href: 'https://music.apple.com/us/artist/last-ghosts/1805279790', icon: 'fab fa-apple' },
+    { name: 'Spotify', href: 'https://open.spotify.com/artist/266uGjsk3PzF7fGg9WgrkW', icon: 'fab fa-spotify' },
+    { name: 'SoundCloud', href: 'https://soundcloud.com/lastghosts', icon: 'fab fa-soundcloud' },
+    { name: 'YouTube', href: 'https://www.youtube.com/channel/UCr8BRZx4fpdAM9wIjiEoYMg', icon: 'fab fa-youtube' },
+    { name: 'Instagram', href: 'https://www.instagram.com/lastghostsband/', icon: 'fab fa-instagram' },
+    { name: 'Facebook', href: 'https://facebook.com/profile.php?id=61574590510381', icon: 'fab fa-facebook' },
+    { name: 'TikTok', href: 'https://www.tiktok.com/@lastghostsband', icon: 'fab fa-tiktok' },
 ];
 
-const HeroSection = () => (
+const HeroSection = ({ onNavClick }) => (
     <section className="hero-section">
         <div className="hero-content">
             <h1 className="hero-title">Last Ghosts</h1>
@@ -29,13 +29,8 @@ const HeroSection = () => (
                 <ul className="hero-nav-list">
                     {navLinks.map((link) => (
                         <li key={link.name}>
-                            <AnimatedOutlineButton>
-                            <a
-                                href={link.href}
-                                className="hero-nav-link"
-                            >
+                            <AnimatedOutlineButton onClick={() => onNavClick(link.key)}>
                                 {link.name}
-                            </a>
                             </AnimatedOutlineButton>
                         </li>
                     ))}

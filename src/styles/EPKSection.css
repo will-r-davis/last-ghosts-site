@@ -1,0 +1,67 @@
+.epk-section {
+    background: #f7f7fa;
+    color: #222;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4rem 2rem 2rem 2rem;
+    padding-left: 20vw;
+    box-sizing: border-box;
+}
+
+.epk-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.epk-intro {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.epk-download {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background: #222;
+    color: #f7f7fa;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    transition: background 0.2s;
+}
+.epk-download:hover {
+    background: #444;
+}
+
+.epk-details {
+    margin-top: 2rem;
+    max-width: 700px;
+}
+
+.epk-details h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.epk-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.epk-details ul li {
+    margin-bottom: 0.5rem;
+}
+
+.epk-details a {
+    color: #1a0dab;
+    text-decoration: underline;
+}

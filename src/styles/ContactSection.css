@@ -1,0 +1,55 @@
+.contact-section {
+    background: #f7f7fa;
+    color: #222;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4rem 2rem 2rem 2rem;
+    padding-left: 20vw;
+    box-sizing: border-box;
+}
+
+.contact-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.contact-intro {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.contact-form {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contact-input {
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+}
+
+.contact-button {
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    background: #222;
+    color: #f7f7fa;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-success {
+    font-size: 1.2rem;
+    color: #228822;
+    margin-top: 1rem;
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import "./AnimatedOutlineButton.css";
+import "../styles/AnimatedOutlineButton.css";
 
 const AnimatedOutlineButton = ({ children, onClick }) => {
     return (
